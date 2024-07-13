@@ -23,24 +23,43 @@ The magazine editors have requested some modifications to the database before I 
 
     {
         "BusinessName": "Penang Flavours",
+   
         "BusinessType": "Restaurant/Cafe/Canteen",
+   
         "BusinessTypeID": "",
+   
         "AddressLine1": "Penang Flavours",
+   
         "AddressLine2": "146A Plumstead Rd",
+   
         "AddressLine3": "London",
+   
         "AddressLine4": "",
+   
         "PostCode": "SE18 7DY",
+   
         "Phone": "",
+   
         "LocalAuthorityCode": "511",
+   
         "LocalAuthorityName": "Greenwich",
+   
         "LocalAuthorityWebSite": "http://www.royalgreenwich.gov.uk",
+   
         "LocalAuthorityEmailAddress": "health@royalgreenwich.gov.uk",
+   
         "scores": {
+   
             "Hygiene": "",
+   
             "Structural": "",
+   
             "ConfidenceInManagement": ""
+   
         },
+   
         "SchemeType": "FHRS",
+   
         "geocode": {
             "longitude": "0.08384000",
             "latitude": "51.49014200"
@@ -50,9 +69,9 @@ The magazine editors have requested some modifications to the database before I 
         "NewRatingPending": true
     }
 
-2. Found the BusinessTypeID for "Restaurant/Cafe/Canteen" and returned only the BusinessTypeID and BusinessType fields.
-3. Updated the new restaurant with the BusinessTypeID found.
-4. The magazine is not interested in any establishments in Dover, so checked how many documents contain the Dover Local Authority. Then, removed any establishments within the Dover Local Authority from the database and checked the number of documents to ensure they were deleted.
+3. Found the BusinessTypeID for "Restaurant/Cafe/Canteen" and returned only the BusinessTypeID and BusinessType fields.
+4. Updated the new restaurant with the BusinessTypeID found.
+5. The magazine is not interested in any establishments in Dover, so checked how many documents contain the Dover Local Authority. Then, removed any establishments within the Dover Local Authority from the database and checked the number of documents to ensure they were deleted.
 3. Some of the number values are stored as strings when they should be stored as numbers.
     - Used update_many to convert latitude and longitude to decimal numbers.
     - Used update_many to convert RatingValue to integer numbers.
