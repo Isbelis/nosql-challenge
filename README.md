@@ -41,7 +41,6 @@ The magazine editors have requested some modifications to the database before I 
             "ConfidenceInManagement": ""
         },
         "SchemeType": "FHRS",
-   
         "geocode": {
             "longitude": "0.08384000",
             "latitude": "51.49014200"
