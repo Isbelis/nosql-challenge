@@ -23,41 +23,23 @@ The magazine editors have requested some modifications to the database before I 
 
     {
         "BusinessName": "Penang Flavours",
-   
         "BusinessType": "Restaurant/Cafe/Canteen",
-   
         "BusinessTypeID": "",
-   
         "AddressLine1": "Penang Flavours",
-   
         "AddressLine2": "146A Plumstead Rd",
-   
         "AddressLine3": "London",
-   
         "AddressLine4": "",
-   
         "PostCode": "SE18 7DY",
-   
         "Phone": "",
-   
         "LocalAuthorityCode": "511",
-   
         "LocalAuthorityName": "Greenwich",
-   
         "LocalAuthorityWebSite": "http://www.royalgreenwich.gov.uk",
-   
         "LocalAuthorityEmailAddress": "health@royalgreenwich.gov.uk",
-   
         "scores": {
-   
             "Hygiene": "",
-   
             "Structural": "",
-   
             "ConfidenceInManagement": ""
-   
         },
-   
         "SchemeType": "FHRS",
    
         "geocode": {
